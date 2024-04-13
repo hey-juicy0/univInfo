@@ -1,0 +1,186 @@
+.login_app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.login_form{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.login_p{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.login_input{
+    padding: 15px 5px;
+}
+.login_label{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+}
+.login_submit{
+    float: right;
+    border: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5vh;
+    background-color: #001F99;
+    color: white;
+}
+.login_submit:hover{
+    font-weight: 800;
+}
+.login_submit:active{
+    float: right;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.home_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 100px);
+}
+.home_login{
+    float: right;
+}
+.home_left ,.home_center, .home_right{
+    width: 30vw;
+    border: 3px solid #003399;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home_image{
+    width: 15vw;
+    padding: 20px 0;
+}
+.home_button{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.home_button:hover{
+    font-weight: 800;
+}
+.home_button:active{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 800;
+}
+html{
+    font-family: "Noto Sans KR", sans-serif;
+}
+input, button, textarea{
+    font-family: "Noto Sans KR", sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.register_app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register_table{
+    width: 40vw;
+}
+.register_p{
+    display: flex;
+}
+.register_p input{
+    flex: 1.5;
+    padding: 5px 0;
+}
+.register_p label{
+    width: 80px;
+    text-align: center;
+    font-weight: 600;
+}
+.register_p select{
+    width: 70px;
+    text-align: center;
+    padding: 5px 0;
+
+}
+.register_button{
+    float: right;
+    display: flex;
+    gap:10px;
+}
+.register_button button{
+    width: 100px;
+    padding: 3px 0;
+    font-size: 16px;
+    border: #777777;
+    font-weight: 600;
+}
+.register_button button:last-child{
+    background-color: #001F99;
+    color: white;
+ }
+
+.register_button button:active{
+    font-weight: 800;
+}
+.register_table span{
+    color: red;
+    font-weight: 700;
+}
+html{
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 55vw;
+    border-collapse: collapse;
+}
+
+td{
+    height: 50px;
+    border: 1px solid dimgray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.total_credits{
+    padding: 10px 0;
+    background-color: #001F99;
+    color: white;
+    border: 1px solid dimgray;
+}
+.total_blank{
+    padding:10px 0;
+    border: 1px solid dimgray;
+}
+.table_head{
+    border: 1px solid dimgray;
+    padding: 10px 0;
+}
+.url a{
+    font-weight: 700;
+    color: #003399;
+}
